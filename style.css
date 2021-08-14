@@ -155,7 +155,7 @@ a {
 }body,html,.height-100,.bg-light,.black,.nav-bar,.snippet-body {
   background-color:black;
 }
-.btn1,.btn2,.btn3,.btn4,.btn5,.btn6 {
+.btn1,.btn2,.btn3,.btn4,.btn5,.btn6,.btn7 {
   color:azure;
   background-color:black;
   width:99%;
@@ -164,11 +164,11 @@ a {
   border-radius:25px;
   border:1px #AFA5D9 solid;
 }
-.btn1:hover,.btn2:hover,.btn3:hover,.btn4:hover,.btn5:hover,.btn6:hover {
+.btn1:hover,.btn2:hover,.btn3:hover,.btn4:hover,.btn5:hover,.btn6:hover,.btn7:hover {
   background-color:#AFA5D9;
   color:black;
 }
-.btn1:active,.btn2:active,.btn3:active,.btn4:active,.btn5:active,.btn6:active {
+.btn1:active,.btn2:active,.btn3:active,.btn4:active,.btn5:active,.btn6:active,.btn7:active {
   background-color:#4e4c4c;
 }
 .black {
