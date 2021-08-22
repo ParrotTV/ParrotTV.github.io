@@ -224,3 +224,7 @@ html,body {
   background-color:black;
   border:3px solid #AFA5D9;
 }
+.dir {
+  color: #AFA5D9;
+  font-size: 30px;
+}

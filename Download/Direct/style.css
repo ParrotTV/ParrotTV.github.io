@@ -206,12 +206,23 @@ h1 {
 }
 
 .dir {
-  width: 50%;
+  padding:5px 5px 5px 5px;
+  border-radius:10px;
+  height:55px;
+  width:94%;
+  margin:5px 1% 5px 1%;
+  float:left;
+  position:relative;
+  transition:height 0.5s;
+  -webkit-transition:height 0.5s;
+  text-align:center;
+  border:#AFA5D9 solid 5px;
+  overflow:hidden;
+  color:white;
   background-color: black;
-  color: red;
-  font-size: 20px;
 }
 
 .dir:hover {
-  background-color: red;
+  background-color: #AFA5D9;
+  color: black;
 }
