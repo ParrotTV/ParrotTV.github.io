@@ -183,8 +183,8 @@ html,body {
 .grow {
   padding:5px 5px 5px 5px;
   border-radius:10px;
-  height:55px;
-  width:94%;
+  height:10%;
+  width:82%;
   margin:5px 1% 5px 1%;
   float:left;
   position:relative;
@@ -196,7 +196,7 @@ html,body {
   color:white;
 }
 .grow:hover {
-  height:440px;
+  height:40%;
 }
 .downbtn {
   width:100%;

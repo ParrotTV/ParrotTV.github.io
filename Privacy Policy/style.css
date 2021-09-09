@@ -169,6 +169,8 @@ html,body {
 
 p,h2,.title {
   color:white;
+  animation: fadeInRightBig; 
+  animation-duration: 1s;
 }
 .title {
   font-size:50px;
