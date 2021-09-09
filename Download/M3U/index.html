@@ -6,7 +6,7 @@
     <meta charset='utf-8'>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <title>
-      Parrot TV
+      Parrot TV | M3U
     </title>
     <link href='https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css'
     rel='stylesheet'>
@@ -38,18 +38,25 @@
               </span>
             </a>
             <div class="nav_list">
-              <a href="../../Download/" class="nav_link">
+              <a href="../" class="nav_link">
                 <i class='bx bx-download nav_icon'>
                 </i>
                 <span class="nav_name">
                   Download
                 </span>
               </a>
+              <a href="../KODI/" class="nav_link">
+                <i class='bx bx-download nav_icon'>
+                </i>
+                <span class="nav_name">
+                  KODI
+                </span>
+              </a>
               <a href="#" class="nav_link active">
                 <i class='bx bx-download nav_icon'>
                 </i>
                 <span class="nav_name">
-                  Direct
+                  M3U
                 </span>
               </a>
               <a href="../../Support/" class="nav_link">
@@ -59,7 +66,7 @@
                   Support
                 </span>
               </a>
-              <a href="TOS/" class="nav_link">
+              <a href="../../TOS/" class="nav_link">
                 <i class='bx bx-clipboard nav_icon'>
                 </i>
                 <span class="nav_name">
@@ -80,13 +87,39 @@
       <!--Container Main start-->
       <div class="height-100 bg-light">
         <div class="black">
-            <button onclick="window.location.href='https://bit.ly/2WhlL5B'" class="dir animate__animated animate__slideInRight">
-              plugin.parrot.tv-9.0.1.zip - Kodi 18.9
+          <div class="get animate__animated animate__slideInRight">
+            <h6 class="typestate">
+              Main - International
+            </h6>
+            <input class="copyt" type="text" value="https://bit.ly/PPM3U" id="myInput">
+            <button class="copyb" onclick="CopyText()">
+              Copy
             </button>
-          
-            <button onclick="window.location.href='https://bit.ly/3mpY1a0'" class="dir animate__animated animate__slideInRight">
-              plugin.parrot.tv-2.0.0.zip - Kodi 19.0
+            <h6 class="typestate">
+              English Only
+            </h6>
+            <input class="copyt" type="text" value="https://bit.ly/PPM3U-E" id="myInput1">
+            <button class="copyb" onclick="CopyText1()">
+              Copy
             </button>
+            <h6 class="typestate">
+              Czechoslovakian
+            </h6>
+            <input class="copyt" type="text" value="https://bit.ly/PPM3U-CS" id="myInput2">
+            <button class="copyb" onclick="CopyText2()">
+              Copy
+            </button>
+            <h6 class="typestate">
+              EPG - CZ, SK, USTVGO 
+            </h6>
+            <input class="copyt" type="text" value="https://bit.ly/PPEPG3" id="myInput3">
+            <button class="copyb" onclick="CopyText3()">
+              Copy
+            </button>
+          </div>
+          <button onclick="window.location.href='https://bit.ly/38aL4IO'" class="dir animate__animated animate__slideInRight">
+            Github Repo
+          </button>
         </div>
       </div>
       <!--Container Main end-->

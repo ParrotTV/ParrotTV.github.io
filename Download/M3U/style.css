@@ -226,3 +226,40 @@ h1 {
   background-color: #AFA5D9;
   color: black;
 }
+
+.get {
+  border: 5px solid #AFA5D9;
+  border-radius: 10px;
+  width:94%;
+  height: 40%;
+  padding:5px 5px 5px 5px;
+  margin:5px 1% 5px 1%;
+  
+}
+
+.copyt {
+  color: white;
+  width: 50%;
+  height: 12%;
+  background-color: black;
+  border: #AFA5D9 2px solid;
+}
+
+.copyb {
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+  width: 30%;
+  height: 12%;
+  font-size: 89%;
+  border: 2px solid #AFA5D9;
+}
+
+.copyb:hover, .copyb:active {
+  color: black;
+  background-color: #AFA5D9;
+}
+
+.typestate {
+  color: white;
+}
