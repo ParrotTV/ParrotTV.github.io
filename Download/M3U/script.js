@@ -35,6 +35,35 @@ document.addEventListener("DOMContentLoaded", function(event) {
   linkColor.forEach(l=> l.addEventListener('click', colorLink))
 });
 
+var sleepTime = "2000"
+
+const sleep = (milliseconds) => {
+  return new Promise(resolve => setTimeout(resolve, milliseconds))
+}
+async function CT(){ 
+  document.getElementById("myInput").value = 'Copied!'
+  await sleep(sleepTime) //wait 5 seconds
+  document.getElementById("myInput").value = 'https://bit.ly/PPM3U'
+}
+
+async function CT1(){ 
+  document.getElementById("myInput1").value = 'Copied!'
+  await sleep(sleepTime) //wait 5 seconds
+  document.getElementById("myInput1").value = 'https://bit.ly/PPM3U-E'
+}
+
+async function CT2(){ 
+  document.getElementById("myInput2").value = 'Copied!'
+  await sleep(sleepTime) //wait 5 seconds
+  document.getElementById("myInput2").value = 'https://bit.ly/PPM3U-CS'
+}
+
+async function CT3(){ 
+  document.getElementById("myInput3").value = 'Copied!'
+  await sleep(sleepTime) //wait 5 seconds
+  document.getElementById("myInput3").value = 'https://bit.ly/PPEPG3'
+}
+
 function CopyText() {
   /* Get the text field */
   var copyText = document.getElementById("myInput");
@@ -48,7 +77,8 @@ function CopyText() {
   document.execCommand("copy");
 
   /* Alert the copied text */
-  alert("Copied: " + copyText.value);
+  CT()
+  
 };
 
 function CopyText1() {
@@ -64,7 +94,8 @@ function CopyText1() {
   document.execCommand("copy");
 
   /* Alert the copied text */
-  alert("Copied: " + copyText.value);
+  CT1()
+
 };
 
 function CopyText2() {
@@ -80,7 +111,7 @@ function CopyText2() {
   document.execCommand("copy");
 
   /* Alert the copied text */
-  alert("Copied: " + copyText.value);
+  CT2()
 };
 
 function CopyText3() {
@@ -96,5 +127,52 @@ function CopyText3() {
   document.execCommand("copy");
 
   /* Alert the copied text */
-  alert("Copied: " + copyText.value);
+  CT3()
 };
+
+
+
+function animateBTN() {
+  const element = document.getElementById("btn");
+  element.classList.add('animate__animated', 'animate__fadeOutRightBig');
+
+  element.addEventListener('animationend', () => {
+    element.classList.remove('animate__animated', 'animate__fadeOutRightBig');
+    element.classList.add('animate__animated', 'animate__fadeInRightBig');
+  });
+
+}
+
+
+function animateBTN1() {
+  const element = document.getElementById("btn1");
+  element.classList.add('animate__animated', 'animate__fadeOutRightBig');
+
+  element.addEventListener('animationend', () => {
+    element.classList.remove('animate__animated', 'animate__fadeOutRightBig');
+    element.classList.add('animate__animated', 'animate__fadeInRightBig');
+  });
+
+}
+
+function animateBTN2() {
+  const element = document.getElementById("btn2");
+  element.classList.add('animate__animated', 'animate__fadeOutRightBig');
+
+  element.addEventListener('animationend', () => {
+    element.classList.remove('animate__animated', 'animate__fadeOutRightBig');
+    element.classList.add('animate__animated', 'animate__fadeInRightBig');
+  });
+
+}
+
+function animateBTN3() {
+  const element = document.getElementById("btn3");
+  element.classList.add('animate__animated', 'animate__fadeOutRightBig');
+
+  element.addEventListener('animationend', () => {
+    element.classList.remove('animate__animated', 'animate__fadeOutRightBig');
+    element.classList.add('animate__animated', 'animate__fadeInRightBig');
+  });
+
+}
