@@ -1,3 +1,7 @@
+var sleepTime = "2000"
+var CopiedMSG = "Copied!"
+
+
 document.addEventListener("DOMContentLoaded", function(event) {
 
   const showNavbar = (toggleId, navId, bodyId, headerId) =>{
@@ -35,31 +39,29 @@ document.addEventListener("DOMContentLoaded", function(event) {
   linkColor.forEach(l=> l.addEventListener('click', colorLink))
 });
 
-var sleepTime = "2000"
-
 const sleep = (milliseconds) => {
   return new Promise(resolve => setTimeout(resolve, milliseconds))
 }
 async function CT(){ 
-  document.getElementById("myInput").value = 'Copied!'
+  document.getElementById("myInput").value = CopiedMSG
   await sleep(sleepTime) //wait 5 seconds
   document.getElementById("myInput").value = 'https://bit.ly/PPM3U'
 }
 
 async function CT1(){ 
-  document.getElementById("myInput1").value = 'Copied!'
+  document.getElementById("myInput1").value = CopiedMSG
   await sleep(sleepTime) //wait 5 seconds
   document.getElementById("myInput1").value = 'https://bit.ly/PPM3U-E'
 }
 
 async function CT2(){ 
-  document.getElementById("myInput2").value = 'Copied!'
+  document.getElementById("myInput2").value = CopiedMSG
   await sleep(sleepTime) //wait 5 seconds
   document.getElementById("myInput2").value = 'https://bit.ly/PPM3U-CS'
 }
 
 async function CT3(){ 
-  document.getElementById("myInput3").value = 'Copied!'
+  document.getElementById("myInput3").value = CopiedMSG
   await sleep(sleepTime) //wait 5 seconds
   document.getElementById("myInput3").value = 'https://bit.ly/PPEPG3'
 }
@@ -130,8 +132,6 @@ function CopyText3() {
   CT3()
 };
 
-
-
 function animateBTN() {
   const element = document.getElementById("btn");
   element.classList.add('animate__animated', 'animate__fadeOutRightBig');
@@ -142,7 +142,6 @@ function animateBTN() {
   });
 
 }
-
 
 function animateBTN1() {
   const element = document.getElementById("btn1");
