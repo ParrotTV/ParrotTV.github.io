@@ -239,7 +239,6 @@ h1 {
 
 .copyt {
   color: white;
-  width: 50%;
   height: 12%;
   background-color: black;
   border: #AFA5D9 2px solid;
@@ -249,7 +248,6 @@ h1 {
   border-radius: 10px;
   background-color: black;
   color: white;
-  width: 30%;
   height: 12%;
   font-size: 89%;
   border: 2px solid #AFA5D9;
@@ -263,3 +261,45 @@ h1 {
 .typestate {
   color: white;
 }
+
+@media (min-width:320px)  { /* smartphones, iPhone, portrait 480x320 phones */ 
+  .copyb {
+    width: 20%;
+  }
+  .copyt {
+    width: 60%;
+  }
+}
+@media (min-width:481px)  { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ 
+  .copyb {
+    width: 30%;
+  }
+  .copyt {
+    width: 60%;
+  }
+}
+@media (min-width:641px)  { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ 
+  .copyb {
+    width: 30%;
+  }
+  .copyt {
+    width: 60%;
+  }
+}
+@media (min-width:961px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ 
+  .copyb {
+    width: 30%;
+  }
+  .copyt {
+    width: 60%;
+  }
+}
+@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ 
+  .copyb {
+    width: 10%;
+  }
+  .copyt {
+    width: 50%;
+  }
+}
+
