@@ -17,10 +17,14 @@
     <script type='text/javascript' src='script.js'>
     </script>
     <link rel="stylesheet" href="style.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/quicklink/2.2.0/quicklink.umd.js"></script>
+    <script src="dist/quicklink.umd.js"></script>
     <script>
     window.addEventListener('load', () => {
-      quicklink.listen();
+      quicklink.listen(
+        {
+          origins: true
+        }
+      );
     });
     </script>
     </head>
@@ -85,9 +89,6 @@
           </button>
           <button class="btn2 animate__animated animate__slideInRight" onclick="window.location.href='Download/'">
             Parrot TV Download
-          </button>
-          <button class="btn3 animate__animated animate__slideInRight" onclick="window.location.href='https://github.com/ParrotDevelopers/Parrot-TV-API'">
-            Parrot TV API
           </button>
           <button onclick="window.location.href='Support/'" class="btn4 animate__animated animate__slideInRight">
             Parrot TV Support

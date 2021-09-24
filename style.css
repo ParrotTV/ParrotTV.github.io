@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
   :root {
   --header-height:3rem;
   --nav-width:68px;
@@ -7,7 +8,9 @@
   --white-color:black;
   --body-font:'Nunito',sans-serif;
   --normal-font-size:1rem;
-  --z-fixed:100
+  --z-fixed:100;
+  --btn-font: 'Roboto:', sans-serif;
+  --btn-font-size: 18px;
 }
 *,::before,::after {
   box-sizing:border-box
@@ -153,23 +156,30 @@ a {
   padding-left:calc(var(--nav-width) + 188px)
 }
 }body,html,.height-100,.bg-light,.black,.nav-bar,.snippet-body {
-  background-color:black;
+  background: #000 url("Images/Wallpaper/bg.gif") no-repeat center 30%;
 }
 .btn1,.btn2,.btn3,.btn4,.btn5,.btn6,.btn7 {
   color:azure;
-  background-color:black;
+  font-family: var(--btn-font);
+  background-color:transparent;
+  font-size: var(--btn-font-size);
   width:99%;
   height:12%;
   display:inline;
   border-radius:25px;
-  border:1px #AFA5D9 solid;
+  border:2px #AFA5D9 solid;
 }
 .btn1:hover,.btn2:hover,.btn3:hover,.btn4:hover,.btn5:hover,.btn6:hover,.btn7:hover {
   background-color:#AFA5D9;
+  font-family: var(--btn-font);
+  font-size: var(--btn-font-size);
   color:black;
 }
 .btn1:active,.btn2:active,.btn3:active,.btn4:active,.btn5:active,.btn6:active,.btn7:active {
   background-color:#4e4c4c;
+  font-family: var(--btn-font);
+  font-size: var(--btn-font-size);
+  
 }
 .black {
   width:100%;
