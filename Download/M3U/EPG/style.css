@@ -231,7 +231,7 @@ h1 {
   border: 5px solid #AFA5D9;
   border-radius: 10px;
   width:94%;
-  height: 25%;
+  height: 20%;
   padding:5px 5px 5px 5px;
   margin:5px 1% 5px 1%;
   
@@ -239,7 +239,7 @@ h1 {
 
 .copyt {
   color: white;
-  height: 12%;
+  height: 20%;
   background-color: black;
   border: #AFA5D9 2px solid;
 }
@@ -248,7 +248,7 @@ h1 {
   border-radius: 10px;
   background-color: black;
   color: white;
-  height: 12%;
+  height: 20%;
   font-size: 89%;
   border: 2px solid #AFA5D9;
 }
