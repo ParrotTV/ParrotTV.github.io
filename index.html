@@ -2,6 +2,27 @@
 <html>
   <!--https://discord.gg/Gnfw2yjnCc-->
   <head>
+    <script async src="//static.getclicky.com/101336243.js"></script>
+    <script>
+      const queryString = window.location.search;
+      const urlParams = new URLSearchParams(queryString);
+      const r = urlParams.get('r')
+
+      if(r == "M3U") {
+        window.location='https://raw.githubusercontent.com/ParrotDevelopers/Parrot-TV-M3U/main/Main.m3u'
+      } else if(r == "M3U-E") {
+        window.location='https://raw.githubusercontent.com/ParrotDevelopers/Parrot-TV-M3U/main/English.m3u'
+      } else if(r == "M3U-CS") {
+        window.location='https://raw.githubusercontent.com/ParrotDevelopers/Parrot-TV-M3U/main/Czechoslovakia.m3u'
+      } else if(r == "EPG") {
+        window.location=''
+      } else if(r == "M3U-B") {
+        window.location='https://raw.githubusercontent.com/ParrotDevelopers/Parrot-TV-M3U/main/Beta/Main.m3u'
+      } else if(r == "M3U-EB") {
+        window.location='https://raw.githubusercontent.com/ParrotDevelopers/Parrot-TV-M3U/main/Beta/English.m3u'
+      }
+    </script>
+    
     <link rel="shortcut icon" href="Images/Favicon/favicon.ico" type="image/x-icon">
     <meta charset='utf-8'>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
