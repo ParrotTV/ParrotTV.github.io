@@ -45,25 +45,25 @@ const sleep = (milliseconds) => {
 async function CT(){ 
   document.getElementById("myInput").value = CopiedMSG
   await sleep(sleepTime) //wait 5 seconds
-  document.getElementById("myInput").value = 'https://bit.ly/PPEPG3'
+  document.getElementById("myInput").value = 'https://parrotm3u.tk/EPG'
 }
 
 async function CT1(){ 
   document.getElementById("myInput1").value = CopiedMSG
   await sleep(sleepTime) //wait 5 seconds
-  document.getElementById("myInput1").value = 'https://iptv-org.github.io/epg/guides/tvtv.us.guide.xml'
+  document.getElementById("myInput1").value = 'https://parrotm3u.tk/EPG-US'
 }
 
 async function CT2(){ 
   document.getElementById("myInput2").value = CopiedMSG
   await sleep(sleepTime) //wait 5 seconds
-  document.getElementById("myInput2").value = 'https://bit.ly/PPM3U-CS'
+  document.getElementById("myInput2").value = 'https://parrotm3u.tk/M3U-CS'
 }
 
 async function CT3(){ 
   document.getElementById("myInput3").value = CopiedMSG
   await sleep(sleepTime) //wait 5 seconds
-  document.getElementById("myInput3").value = 'https://bit.ly/PPEPG3'
+  document.getElementById("myInput3").value = 'https://parrotm3u.tk/EPG'
 }
 
 function CopyText() {
