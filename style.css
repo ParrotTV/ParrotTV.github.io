@@ -4,7 +4,8 @@
   --header-height:3rem;
   --nav-width:68px;
   --first-color:rgb(25,25,26);
-  --first-color-light:#AFA5D9;
+  --first-color-light: #FF8806;
+  --first-color-old: #AFA5D9;
   --white-color:black;
   --body-font:'Nunito',sans-serif;
   --normal-font-size:1rem;
@@ -14,6 +15,20 @@
 }
 *,::before,::after {
   box-sizing:border-box
+}
+.spook {
+  color: var(--first-color-light);
+  font-size: 75px;
+  font-family:var(--body-font);
+  text-align: center;
+}
+.jumpscare {
+  background: #000 url('./Images/Jumpscare.gif') no-repeat center center;
+  position: relative;
+  z-index: 150;
+  width: 100%;
+  height: 100vh;
+  display: none;
 }
 body {
   position:relative;
@@ -86,10 +101,10 @@ a {
 }
 .nav_logo-icon {
   font-size:1.25rem;
-  color:#AFA5D9
+  color:var(--first-color-light);
 }
 .nav_logo-name {
-  color:#AFA5D9;
+  color:var(--first-color-light);
   font-weight:700
 }
 .nav_link {
@@ -133,7 +148,6 @@ a {
 .header {
   height:calc(var(--header-height) + 1rem);
   padding:0 2rem 0 calc(var(--nav-width) + 2rem);
-  background-color:black;
 }
 .header_img {
   width:40px;
@@ -156,10 +170,10 @@ a {
   padding-left:calc(var(--nav-width) + 188px)
 }
 }body,html,.height-100,.bg-light,.black,.nav-bar,.snippet-body {
-  background: #000 url("Images/Wallpaper/bg.gif") no-repeat center 30%;
+  background: #000 url('./Images/Wallpaper/HW.jpg') no-repeat center 30%;
 }
 .btn1,.btn2,.btn3,.btn4,.btn5,.btn6,.btn7 {
-  color:azure;
+  color:white;
   font-family: var(--btn-font);
   background-color:transparent;
   font-size: var(--btn-font-size);
@@ -167,10 +181,10 @@ a {
   height:12%;
   display:inline;
   border-radius:25px;
-  border:2px #AFA5D9 solid;
+  border:2px var(--first-color-light) solid;
 }
 .btn1:hover,.btn2:hover,.btn3:hover,.btn4:hover,.btn5:hover,.btn6:hover,.btn7:hover {
-  background-color:#AFA5D9;
+  background-color:var(--first-color-light);
   font-family: var(--btn-font);
   font-size: var(--btn-font-size);
   color:black;

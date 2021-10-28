@@ -2,7 +2,7 @@
 <html>
   <!--https://discord.gg/Gnfw2yjnCc-->
   <head>
-    
+    <audio style="display: none;" autoplay="true" src="./Music/HW.mp3" id="audio"></audio>
     <link rel="shortcut icon" href="Images/Favicon/favicon.ico" type="image/x-icon">
     <meta charset='utf-8'>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
@@ -16,8 +16,8 @@
     rel='stylesheet'>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     rel="stylesheet">
-    <script type='text/javascript' src='script.js'>
-    </script>
+    <script type='text/javascript' src='script.js'></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" type="text/javascript"></script>
     <link rel="stylesheet" href="style.css">
     <script src="dist/quicklink.umd.js"></script>
     <script>
@@ -81,13 +81,46 @@
                   Privacy Policy
                 </span>
               </a>
+              <a onclick="mute()" id="mutebutton" class="nav_link">
+                <i id="mbtn" class='bx bx-volume-full nav_icon'>
+                </i>
+                <span class="nav_name">
+                  &nbsp; Playing
+                </span>
+              </a>
+              <a onclick="unmute()" id="unmutebutton" class="nav_link">
+                <i id="umbtn" class='bx bx-volume-mute nav_icon'>
+                </i>
+                <span class="nav_name">
+                  &nbsp; Muted
+                </span>
+              </a>
             </div>
           </div>
         </nav>
       </div>
       <!--Container Main start-->
       <div class="height-100 bg-light">
+        
+        <script>
+          document.getElementById('unmutebutton').style.display = 'none';
+          var audio = document.getElementById('audio')
+          function mute() {
+            audio.pause()
+            document.getElementById('mutebutton').style.display = 'none';
+            document.getElementById('unmutebutton').style.display = 'block';
+          }
+
+          function unmute() {
+            audio.play()
+            document.getElementById('mutebutton').style.display = 'block';
+            document.getElementById('unmutebutton').style.display = 'none';
+          }
+        </script>
+        
         <div class="black">
+          <div class="jumpscare" id="jumpscare"></div>
+          <h1 class="spook animate__animated animate__slideInRight">Happy Halloween!</h1>
           <button class="btn1 animate__animated animate__slideInRight" onclick="window.location.href='https://parrotdevelopers.github.io/Parrot-TV-WebApp/'">
             Parrot TV WebApp
           </button>
