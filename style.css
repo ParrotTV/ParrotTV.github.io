@@ -18,7 +18,7 @@
 }
 .spook {
   color: var(--first-color-light);
-  font-size: 75px;
+  font-size: 70px;
   font-family:var(--body-font);
   text-align: center;
 }
