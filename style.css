@@ -4,7 +4,7 @@
   --header-height:3rem;
   --nav-width:68px;
   --first-color:rgb(25,25,26);
-  --first-color-light: #FF8806;
+  --first-color-light: #006ebc;
   --first-color-old: #AFA5D9;
   --white-color:black;
   --body-font:'Nunito',sans-serif;
@@ -15,20 +15,6 @@
 }
 *,::before,::after {
   box-sizing:border-box
-}
-.spook {
-  color: var(--first-color-light);
-  font-size: 75px;
-  font-family:var(--body-font);
-  text-align: center;
-}
-.jumpscare {
-  background: #000 url('./Images/Jumpscare.gif') no-repeat center center;
-  position: relative;
-  z-index: 150;
-  width: 100%;
-  height: 100vh;
-  display: none;
 }
 body {
   position:relative;
@@ -170,7 +156,7 @@ a {
   padding-left:calc(var(--nav-width) + 188px)
 }
 }body,html,.height-100,.bg-light,.black,.nav-bar,.snippet-body {
-  background: #000 url('./Images/Wallpaper/HW.jpg') no-repeat center 30%;
+  background: #000 url('./Images/Wallpaper/bg.gif') no-repeat center 30%;
 }
 .btn1,.btn2,.btn3,.btn4,.btn5,.btn6,.btn7 {
   color:white;
@@ -204,4 +190,47 @@ html,body {
   height:100%;
   overflow-x:hidden;
   overflow-y:hidden;
+}
+.popup {
+  position: fixed;
+  z-index: 150;
+  width: 50%;
+  height: 70vh;
+  background-color: rgb(0, 0, 0);
+  align-items: center;
+  margin-left: 18%
+}
+.close {
+  float: right;
+  display:inline-block;
+  padding:2px 5px;
+  border-radius: 100%;
+  background:#ccc;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  font-size: 30px;
+}
+.close:hover {
+  background:rgb(75, 74, 74)
+}
+.info {
+  height: 10%;
+  width: 100%;
+  float: top;
+  text-align: center;
+  color: #006ebc;
+}
+.teamseas {
+  height: 90%;
+  width: 100%;
+}
+
+
+@media only screen and (max-width: 1200px) {
+  .popup {
+    width: 83%;
+    height: 85vh;
+    margin-left: 5%
+  }
 }

@@ -1,8 +1,6 @@
 <!doctype html>
 <html>
-  <!--https://discord.gg/Gnfw2yjnCc-->
   <head>
-    <audio style="display: none;" autoplay="true" src="./Music/HW.mp3" id="audio"></audio>
     <link rel="shortcut icon" href="Images/Favicon/favicon.ico" type="image/x-icon">
     <meta charset='utf-8'>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
@@ -34,7 +32,12 @@
   
   <body oncontextmenu='return false' class='snippet-body'>
 
-    
+    <div class="popup" id="popup">
+      <span onclick="popup('2')" class="close">x</span>
+      <h1 class="info">#TeamSeas</h1>
+      <iframe class="teamseas" src="https://teamseas.org/" frameborder="0"></iframe>
+    </div>
+    <div class="shadow"></div>
     <body id="body-pd">
       <header class="header" id="header">
         <div class="header_toggle animate__animated animate__slideInDown">
@@ -81,20 +84,6 @@
                   Privacy Policy
                 </span>
               </a>
-              <a onclick="mute()" id="mutebutton" class="nav_link">
-                <i id="mbtn" class='bx bx-volume-full nav_icon'>
-                </i>
-                <span class="nav_name">
-                  &nbsp; Playing
-                </span>
-              </a>
-              <a onclick="unmute()" id="unmutebutton" class="nav_link">
-                <i id="umbtn" class='bx bx-volume-mute nav_icon'>
-                </i>
-                <span class="nav_name">
-                  &nbsp; Muted
-                </span>
-              </a>
             </div>
           </div>
         </nav>
@@ -102,25 +91,8 @@
       <!--Container Main start-->
       <div class="height-100 bg-light">
         
-        <script>
-          document.getElementById('unmutebutton').style.display = 'none';
-          var audio = document.getElementById('audio')
-          function mute() {
-            audio.pause()
-            document.getElementById('mutebutton').style.display = 'none';
-            document.getElementById('unmutebutton').style.display = 'block';
-          }
-
-          function unmute() {
-            audio.play()
-            document.getElementById('mutebutton').style.display = 'block';
-            document.getElementById('unmutebutton').style.display = 'none';
-          }
-        </script>
         
         <div class="black">
-          <div class="jumpscare" id="jumpscare"></div>
-          <h1 class="spook animate__animated animate__slideInRight">Happy Halloween!</h1>
           <button class="btn1 animate__animated animate__slideInRight" onclick="window.location.href='https://parrotdevelopers.github.io/Parrot-TV-WebApp/'">
             Parrot TV WebApp
           </button>
@@ -133,10 +105,21 @@
           <button onclick="window.location.href='Support/'" class="btn4 animate__animated animate__slideInRight">
             Parrot TV Support
           </button>
+          
         </div>
       </div>
       <!--Container Main end-->
       <script type='text/javascript' src='https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js'>
+      </script>
+      <script>
+        function popup(mode) {
+          popup = document.getElementById('popup')
+          if(mode == "1"){
+            popup.style.display = "block";
+          } else if(mode == "2") {
+            popup.style.display = "none";
+          }
+        }
       </script>
     </body>
 
