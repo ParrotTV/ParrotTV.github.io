@@ -16,6 +16,23 @@
 *,::before,::after {
   box-sizing:border-box
 }
+<<<<<<< HEAD
+=======
+.spook {
+  color: var(--first-color-light);
+  font-size: 69px;
+  font-family:var(--body-font);
+  text-align: center;
+}
+.jumpscare {
+  background: #000 url('./Images/Jumpscare.gif') no-repeat center center;
+  position: relative;
+  z-index: 150;
+  width: 100%;
+  height: 100vh;
+  display: none;
+}
+>>>>>>> fc35f29f2bee92d1f64ad207837c1ae23b1c7a71
 body {
   position:relative;
   margin:var(--header-height) 0 0 0;
