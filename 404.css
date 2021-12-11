@@ -7,7 +7,9 @@
   --header-height:3rem;
   --nav-width:68px;
   --first-color:rgb(25,25,26);
-  --first-color-light:#AFA5D9;
+  --first-color-light: #e1e2e2;
+  --sidebar-icon-color: #e1e2e2;
+  --first-color-old: #AFA5D9;
   --white-color:black;
   --body-font:'Nunito',sans-serif;
   --normal-font-size:1rem;
@@ -87,15 +89,15 @@ a {
 }
 .nav_logo-icon {
   font-size:1.25rem;
-  color:#AFA5D9
+  color:var(--sidebar-icon-color)
 }
 .nav_logo-name {
-  color:#AFA5D9;
+  color:var(--sidebar-icon-color);
   font-weight:700
 }
 .nav_link {
   position:relative;
-  color:var(--first-color-light);
+  color:var(--sidebar-icon-color);
   margin-bottom:1.5rem;
   transition:.3s
 }
@@ -166,10 +168,10 @@ a {
   height:12%;
   display:inline;
   border-radius:25px;
-  border:1px #AFA5D9 solid;
+  border:1px #e1e2e2 solid;
 }
 .btn1:hover,.btn2:hover,.btn3:hover,.btn4:hover,.btn5:hover,.btn6:hover {
-  background-color:#AFA5D9;
+  background-color:#e1e2e2;
   color:black;
 }
 .btn1:active,.btn2:active,.btn3:active,.btn4:active,.btn5:active,.btn6:active {
@@ -190,7 +192,7 @@ h1 {
   color:white;
   text-align:center;
   white-space:pre-line;
-  color:#AFA5D9;
+  color:#e1e2e2;
   font-size:90px;
   font-family: Anton-Regular;
   animation: wobble;
@@ -198,7 +200,7 @@ h1 {
 }
 .home {
   font-size:40px;
-  color:#AFA5D9;
+  color:#e1e2e2;
   text-align: center;
   white-space: pre-line;
   font-family: Anton-Regular;
@@ -209,9 +211,9 @@ h1 {
 .a-h1 {
   color:white;
   text-align:center;
-  border: 5px solid #AFA5D9;
+  border: 5px solid #e1e2e2;
   white-space:pre-line;
-  color:#AFA5D9;
+  color:#e1e2e2;
   font-size:90px;
   font-family: Anton-Regular;
   animation: bounceInUp;
@@ -219,6 +221,6 @@ h1 {
 }
 
 .a-h1:hover {
-  background-color: #AFA5D9;
+  background-color: #e1e2e2;
   color: black;
 }

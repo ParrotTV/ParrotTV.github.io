@@ -3,7 +3,9 @@
   --header-height:3rem;
   --nav-width:68px;
   --first-color:rgb(25,25,26);
-  --first-color-light:#AFA5D9;
+  --first-color-light: #e1e2e2;
+  --sidebar-icon-color: #e1e2e2;
+  --first-color-old: #AFA5D9;
   --white-color:black;
   --body-font:'Nunito',sans-serif;
   --normal-font-size:1rem;
@@ -83,15 +85,15 @@ a {
 }
 .nav_logo-icon {
   font-size:1.25rem;
-  color:#AFA5D9
+  color:var(--sidebar-icon-color)
 }
 .nav_logo-name {
-  color:#AFA5D9;
+  color:var(--sidebar-icon-color);
   font-weight:700
 }
 .nav_link {
   position:relative;
-  color:var(--first-color-light);
+  color:var(--sidebar-icon-color);
   margin-bottom:1.5rem;
   transition:.3s
 }
@@ -162,10 +164,10 @@ a {
   height:12%;
   display:inline;
   border-radius:25px;
-  border:1px #AFA5D9 solid;
+  border:1px var(--first-color-light) solid;
 }
 .btn1:hover,.btn2:hover,.btn3:hover,.btn4:hover,.btn5:hover,.btn6:hover {
-  background-color:#AFA5D9;
+  background-color:var(--first-color-light);
   color:black;
 }
 .btn1:active,.btn2:active,.btn3:active,.btn4:active,.btn5:active,.btn6:active {
@@ -216,22 +218,22 @@ h1 {
   transition:height 0.5s;
   -webkit-transition:height 0.5s;
   text-align:center;
-  border:#AFA5D9 solid 5px;
+  border:var(--first-color-light) solid 5px;
   overflow:hidden;
   color:white;
   background-color: black;
 }
 
 .dir:hover {
-  background-color: #AFA5D9;
+  background-color: var(--first-color-light);
   color: black;
 }
 
 .get {
-  border: 5px solid #AFA5D9;
+  border: 5px solid var(--first-color-light);
   border-radius: 10px;
   width:94%;
-  height: 25%;
+  height: 20%;
   padding:5px 5px 5px 5px;
   margin:5px 1% 5px 1%;
   
@@ -239,23 +241,23 @@ h1 {
 
 .copyt {
   color: white;
-  height: 12%;
+  height: 20%;
   background-color: black;
-  border: #AFA5D9 2px solid;
+  border: var(--first-color-light) 2px solid;
 }
 
 .copyb {
   border-radius: 10px;
   background-color: black;
   color: white;
-  height: 12%;
+  height: 20%;
   font-size: 89%;
-  border: 2px solid #AFA5D9;
+  border: 2px solid var(--first-color-light);
 }
 
 .copyb:hover, .copyb:active {
   color: black;
-  background-color: #AFA5D9;
+  background-color: var(--first-color-light);
 }
 
 .typestate {

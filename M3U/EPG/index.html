@@ -2,21 +2,22 @@
 <html>
   
   <head>
-    <link rel="shortcut icon" href="../Images/Favicon/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="../../../Images/Favicon/favicon.ico" type="image/x-icon">
     <meta charset='utf-8'>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <title>
-      Parrot TV | Download
+      Parrot TV | EPG
     </title>
     <link href='https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css'
     rel='stylesheet'>
     <link href='https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css'
     rel='stylesheet'>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.6/build/pure-min.css" integrity="sha384-Uu6IeWbM+gzNVXJcM9XV3SohHtmWE+3VGi496jvgX1jyvDTXfdK+rfZc8C1Aehk5" crossorigin="anonymous">
     <script type='text/javascript' src='script.js'>
     </script>
     <link rel="stylesheet" href="style.css">
-    <script src="../dist/quicklink.umd.js"></script>
+    <script src="../../dist/quicklink.umd.js"></script>
     <script>
     window.addEventListener('load', () => {
       quicklink.listen(
@@ -48,49 +49,35 @@
               </span>
             </a>
             <div class="nav_list">
-              <a href="#" class="nav_link active">
-                <i class='bx bx-download nav_icon'>
-                </i>
-                <span class="nav_name">
-                  Download
-                </span>
-              </a>
-              <a href="./KODI/" class="nav_link">
-                <i class='bx bx-download nav_icon'>
-                </i>
-                <span class="nav_name">
-                  KODI
-                </span>
-              </a>
-              <a href="./M3U/" class="nav_link">
+              <a href="../" class="nav_link">
                 <i class='bx bx-download nav_icon'>
                 </i>
                 <span class="nav_name">
                   M3U
                 </span>
               </a>
-              <a href="M3U/EPG/" class="nav_link">
+              <a href="#" class="nav_link active">
                 <i class='bx bx-download nav_icon'>
                 </i>
                 <span class="nav_name">
                   EPG
                 </span>
               </a>
-              <a href="../Support/" class="nav_link">
+              <a href="../../Support/" class="nav_link">
                 <i class='bx bx-support nav_icon'>
                 </i>
                 <span class="nav_name">
                   Support
                 </span>
               </a>
-              <a href="../TOS/" class="nav_link">
+              <a href="../../TOS/" class="nav_link">
                 <i class='bx bx-clipboard nav_icon'>
                 </i>
                 <span class="nav_name">
                   TOS
                 </span>
               </a>
-              <a href="../Privacy Policy/" class="nav_link">
+              <a href="../../Privacy Policy/" class="nav_link">
                 <i class='bx bx-clipboard nav_icon'>
                 </i>
                 <span class="nav_name">
@@ -104,13 +91,25 @@
       <!--Container Main start-->
       <div class="height-100 bg-light">
         <div class="black">
-            <button onclick="window.location.href='./KODI/'" class="dir animate__animated animate__slideInRight">
-              KODI
+          <div class="get animate__animated animate__slideInRight">
+            <h6 class="typestate">
+              CZ / SK EPG
+            </h6>
+            <input class="copyt" type="text" value="https://parrotm3u.tk/EPG" id="myInput">
+            <button class="copyb" onclick="animateBTN();CopyText()" id="btn">
+              Copy
             </button>
-          
-            <button onclick="window.location.href='./M3U/'" class="dir animate__animated animate__slideInRight">
-              M3U
+            <h6 class="typestate">
+              US EPG
+            </h6>
+            <input class="copyt" type="text" value="https://parrotm3u.tk/EPG-US" id="myInput1">
+            <button class="copyb" onclick="animateBTN1();CopyText1()" id="btn1">
+              Copy
             </button>
+          </div>
+          <button onclick="window.location.href='../'" class="dir animate__animated animate__slideInRight">
+            Back to M3U
+          </button>
         </div>
       </div>
       <!--Container Main end-->
