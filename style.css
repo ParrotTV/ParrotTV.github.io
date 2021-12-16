@@ -193,13 +193,15 @@ html,body {
   overflow-y:hidden;
 }
 .upper {
-  color: white;
-  text-align: center;
-  font-size: 90px;
-}
-.lower {
+  background-color:transparent;
   color: white;
   text-align: center;
   font-size: 60px;
+}
+.lower {
+  background-color:transparent;
+  color: white;
+  text-align: center;
+  font-size: 30px;
 }
 
