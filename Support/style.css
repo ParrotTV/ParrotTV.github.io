@@ -184,7 +184,6 @@ html,body {
 .bordr {
   border:2px blue solid;
 }
-
 .mn {
   color:var(--first-color-light);
   font-size:35[x];
@@ -202,4 +201,12 @@ html,body {
 .clps:active {
   background-color:dimgrey;
   color:black;
+}
+.q {
+  color:white;
+  font-size:3rem;
+}
+.a {
+  color:white;
+  font-size:2rem;
 }

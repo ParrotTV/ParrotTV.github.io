@@ -192,5 +192,14 @@ html,body {
   overflow-x:hidden;
   overflow-y:hidden;
 }
-
+.upper {
+  color: white;
+  text-align: center;
+  font-size: 90px;
+}
+.lower {
+  color: white;
+  text-align: center;
+  font-size: 60px;
+}
 
