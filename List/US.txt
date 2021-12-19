@@ -1,0 +1,236 @@
+US: ABC
+US: ACC Network
+US: AE
+US: AMC
+US: Animal Planet
+US: BBCAmerica
+US: Big Ten Network
+US: BET
+US: Boomerang
+US: Bravo
+US: C-span
+US: CBS
+US: CBS Sports Network
+US: Cinemax
+US: CMT
+US: Cartoon Network
+US: CNBC
+US: CNN
+US: Comedy Central
+US: CW
+US: Destination America
+US: Discovery
+US: Disney
+US: DisneyJr
+US: DisneyXD
+US: Do it yourself (DIY)
+US: E!
+US: ESPN
+US: ESPN2
+US: ESPNU
+US: ESPNews
+US: FoodNetwork
+US: FOX
+US: FoxBusiness
+US: FoxNews
+US: Freeform
+US: Fox Sports 1
+US: Fox Sports 2
+US: FX
+US: FX Movie Channel
+US: FXX
+US: Golf Channel
+US: Game Show Network
+US: Hallmark Channel
+US: HBO
+US: HGTV
+US: History
+US: HLN
+US: Hallmark Movies & Mysteries
+US: Investigation Discovery
+US: Lifetime
+US: Lifetime Movie Network
+US: MLB Network
+US: Motor Trend
+US: MSNBC
+US: MTV
+US: National Geographic
+US: Nat Geo Wild
+US: NBA TV
+US: NBC
+US: NBC Sports (NBCSN)
+US: NFL Network
+US: NFL Redzone
+US: Nickelodeon
+US: Nicktoons
+US: One America News Network
+US: Oprah Winfrey Network (OWN)
+US: Olympic Channel
+US: Oxygen
+US: Paramount
+US: PBS
+US: POP
+US: Science
+US: SEC Network
+US: Showtime
+US: StarZ
+US: SundanceTV
+US: SYFY
+US: TBS
+US: Turner Classic Movies (TCM)
+US: Telemundo
+US: Tennis Channel
+US: TLC
+US: TNT
+US: Travel Channel
+US: truTV
+US: TV Land
+US: The Weather Channel
+US: Univision
+US: USA Network
+US: VH1
+US: We TV
+US: WWE Network
+US: YES Network
+US: ABC
+US: ABC 2 Baton Rouge LAND
+US: ABC 9 Orlando FL
+US: AXN
+US: CBS
+US: CBS 9 Washington DC (WUSA-HD)
+US: CBS News Boston
+US: CBS News Los Angeles
+US: Discovery
+US: Animal Planet HD
+US: CNN
+US: Comedy Central
+US: Clarity
+US: National Geographic
+US: NAT GEO Wild
+US: Animal Planet
+US: Travel XP
+US: HBO
+US: HBO 3
+US: Nick
+US: Love Nature
+US: CARTOON NETWORK
+US: Discovery HD
+US: Cinemax
+US: Discovery Science
+US: C-Span
+US: C-Span 2
+US: C-Span 3
+US: NBC 15 Madison WI
+US: NBC 26
+US: FOX 28 Savannah GA
+US: FOX Sport HD 1
+US: FOX Movies
+US: Newsmax
+US: ABC 2 Atlanta GA (WSB-TV)
+US: ABC 4 Seattle WA (KOMO-TV)
+US: ABC 7 Denver CO (KMGH)
+US: ABC 7 Los Angeles CA (KABC-TV)
+US: ABC 7 Washington DC (WJLA)
+US: ABC 9 Orlando FL (WFTV) (540p)
+US: ABC 13 Las Vegas NV (KTNV)
+US: ABC 15 Phoenix AZ (KNXV-TV)
+US: ABC News
+US: ABC News Live 1
+US: ABC News Live 2
+US: ABC News Live 3
+US: ABC News Live 4
+US: ABC News Live 5
+US: ABC News Live 6
+US: ABC News Live 7
+US: ABC News Live 8
+US: ABC News Live 9
+US: ABC News Live 10
+US: ACC Network
+US: Pop
+US: Motorvision TV
+US: NBC 11 Pittsburgh PA (WPXI)
+US: NBC News Now
+US: NBC News Now
+US: NBC News Now Event 1
+US: NBC News Now Event 2
+US: NBC News Now Event 3
+US: NBC News Now Event 4
+US: History (Best Of)
+US: Fox News Channel
+US: Fox News
+US: FOX News Radio
+US: FOX 23 Tulsa OK (KOKI-TV)
+US: CBS 3 Omaha NE (KMTV-TV)
+US: CBS 3 Omaha NE (KMTV-TV)
+US: CBS 6 Albany NY (WRGB)
+US: CBS 12 West Palm Beach FL (WPEC)
+US: CBS 47 Action News Jacksonville FL (WJAX-TV)
+US: Newsy
+US: CBS News
+US: NBA
+US: EXTREME SPORT
+US: Crime 360
+US: Danger TV
+US: Dust
+US: Fox News Now
+US: Fox Soul
+US: Law And Crime
+US: MovieMix
+US: MovieSpehere TV
+US: HSN
+US: HSN 2
+US: Docurama
+US: NASA TV
+US: NBCLX
+US: One America News
+US: Outside TV+
+US: Red Bull TV
+US: Warner Brothers TV
+US: Crima & Investigation
+US: Pluto TV Christmas
+US: Pluto TV BET 
+US: Pluto TV CMT
+US: Pluto TV Comedy Central
+US: Pluto TV MTV
+US: Pluto TV Nick Jr.
+US: Pluto TV Nick 
+US: Pluto TV Action
+US: Pluto TV Action Sports
+US: Pluto TV Animals
+US: Pluto TV Best Life
+US: Pluto TV Cars
+US: Pluto TV Celebrity
+US: Pluto TV Cine
+US: Pluto TV Cine Estelar
+US: Pluto TV Cine Terror
+US: Pluto TV Cocina
+US: Pluto TV Comedy
+US: Pluto TV Crime Drama
+US: Pluto TV Cult Films
+US: Pluto TV Documentaries
+US: Pluto TV Drama Life
+US: Pluto TV Fantastic
+US: Pluto TV Gamer
+US: Pluto TV History
+US: Pluto TV Horror
+US: Pluto TV Investiga
+US: Pluto TV Kids
+US: Pluto TV Kids Animation
+US: Pluto TV Lives
+US: Pluto TV Love Stories
+US: Pluto TV Military
+US: Pluto TV Mundo
+US: Pluto TV Naturaleza
+US: Pluto TV Paranormal
+US: Pluto TV Realities ESP
+US: Pluto TV Reality
+US: Pluto TV Romance
+US: Pluto TV Sci-Fi
+US: Pluto TV Science
+US: Pluto TV Sports
+US: Pluto TV Suspense
+US: Pluto TV Terror
+US: Pluto TV Thrillers
+US: Pluto TV True Crime
+US: Pluto TV Tween
+US: Pluto TV Spike 
