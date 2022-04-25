@@ -16,29 +16,12 @@
     <meta name="og:site_name" content="Parrot Repo">
     <meta name="og:locale" content="en_US">
     <meta name="og:type" content="website">
-    <link rel="icon" type="image/x-icon" href="https://parrot.rf.gd/img/Favicon/favicon.ico">
-    <style>
-        html, body {
-            height: 100vh;
-            width: 100%;
-            overflow-y: hidden;
-            overflow-x: hidden;
-            background-color: #151514;
-        }
-        iframe {
-            width: 100%;
-            height: 100%;
-            border: none;
-        }
-    </style>
+    <script>
+        let iframe = document.getElementById('iframe');
+        const base = "https://parrot.rf.gd";
+        const urlParams = new URLSearchParams(window.location.search);
+        const url = base + "?" + urlParams.toString();
+        window.location.href = url;
+    </script>
 </head>
-<body><iframe id="iframe"></iframe></body>
-<script>
-    let iframe = document.getElementById('iframe');
-    const base = "https://parrot.rf.gd";
-    const urlParams = new URLSearchParams(window.location.search);
-    const url = base + "?" + urlParams.toString();
-    iframe.src = url;
-</script>
-</script>
 </html>
